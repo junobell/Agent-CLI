@@ -1,0 +1,13 @@
+# Track only the multi-agent configuration. Runtime state and credentials stay ignored.
+/*
+!/.gitignore
+!/config.toml
+!/statusline-provider.py
+!/launch.py
+!/AGENTS.md
+!/agents/
+/agents/*
+!/agents/designer.toml
+!/agents/implementer.toml
+!/agents/reviewer.toml
+!/agents/extractor.toml
